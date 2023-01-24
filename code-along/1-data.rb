@@ -45,7 +45,7 @@ first_name = "Tom"
 greeting = "Hello, #{first_name}!"
 puts greeting;
 
-# puts "#{food}: #{quantity};
+ puts "#{food}: #{quantity}";
 
 puts first_name.upcase;
 puts greeting.reverse;
