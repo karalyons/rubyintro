@@ -12,8 +12,17 @@
 puts 3 > 2; 
 puts 3 < 2;
 puts 3 == 2; #equals is ==, assignment is =
+puts 3 != 2;
 
 # If Conditional Logic
+if 3 > 2
+    puts "awesome"
+    puts "math works!"
+end
+
+if 3 < 2
+    puts "what??!?!?!??!"
+end    
 
 # If/Else Conditional Logic
 
