@@ -17,10 +17,11 @@ brians_list = ["coffee", "bacon"]
 joinlist = bens_list + brians_list
 # puts joinlist
 
-sorted_list = joinlist.sort
-# puts sorted_list;
+sorted_list = joinlist.sort.uniq
+puts sorted_list;
+puts "Buy #{sorted_list[0]}"
 
-deduplicated_list = sorted_list.uniq
+# deduplicated_list = sorted_list.uniq
 # puts deduplicated_list;
 
 
