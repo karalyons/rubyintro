@@ -24,7 +24,7 @@ puts favorite_foods[0]
 puts favorite_foods[1]
 puts favorite_foods[2]
 puts favorite_foods[3]
-puts favorite_foods[4]
+puts favorite_foods[4].inspect
 
 # Add to the array
 
