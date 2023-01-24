@@ -20,13 +20,22 @@ shopping_list = ["diapers", "wipes", "toys"], ["coffee", "more coffee"]
 # puts shopping_list
 
 # Accessing the array
-puts favorite_foods[0]
-puts favorite_foods[1]
-puts favorite_foods[2]
-puts favorite_foods[3]
-puts favorite_foods[4].inspect
+# puts favorite_foods[0]
+# puts favorite_foods[1]
+# puts favorite_foods[2]
+# puts favorite_foods[3]
+# puts favorite_foods[4].inspect
+# puts favorite_foods[300].inspect
+# puts favorite_foods[-1].inspect
 
 # Add to the array
+
+# favorite_foods.push "coffee" #.push or .append are the same or <<
+#     puts favorite_foods;
+
+# ! puts favorite_foods + "coffee"
+
+puts shopping_list[1][0]
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
