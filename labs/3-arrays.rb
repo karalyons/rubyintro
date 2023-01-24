@@ -12,6 +12,18 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+bens_list = ["diapers", "coffee", "flour"]
+brians_list = ["coffee", "bacon"]
+joinlist = bens_list + brians_list
+# puts joinlist
+
+sorted_list = joinlist.sort
+# puts sorted_list;
+
+deduplicated_list = sorted_list.uniq
+# puts deduplicated_list;
+
+
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
