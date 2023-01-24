@@ -36,6 +36,8 @@
 # quantity = 3
 # puts food * quantity;
 
+
+
 # Combine strings and variables
 first_name = "Tom"
 # puts "Hello, " + first_name + "!";
@@ -43,4 +45,11 @@ first_name = "Tom"
 greeting = "Hello, #{first_name}!"
 puts greeting;
 
-# String manipulation
+# puts "#{food}: #{quantity};
+
+puts first_name.upcase;
+puts greeting.reverse;
+puts greeting.swapcase;
+
+
+
