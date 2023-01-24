@@ -31,7 +31,7 @@ rate = bitcoin_data["bpi"]["USD"]["rate_float"]
 value = rate * bitcoin
 puts value
 
-puts "Bitcoin is valued att $#{rate} USD."
+puts "Bitcoin is valued at $#{rate} USD."
 puts "Your Bitcoin is worth $#{value}."
 
 
