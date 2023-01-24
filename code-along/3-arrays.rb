@@ -35,7 +35,13 @@ shopping_list = ["diapers", "wipes", "toys"], ["coffee", "more coffee"]
 
 # ! puts favorite_foods + "coffee"
 
-puts shopping_list[1][0]
+# puts shopping_list[1][0]
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+puts favorite_foods.count
+puts favorite_foods.length
+puts favorite_foods.size
+
+
